@@ -22,20 +22,22 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Header */}
-        <header className="bg-blue-600 text-white py-4 text-center">
-          <h1 className="text-2xl font-bold">MY WEBSITE</h1>
-        </header>
-        {/* Main Content */}
-        <main className="container mx-auto my-8 p-6 bg-white text-black shadow-lg rounded-2xl">
-          {children}
-        </main>
-        {/* Footer */}
-        <footer className="bg-blue-600 text-white text-center py-3 mt-10">
-          <p>2026 My Website</p>
-        </footer>
-        
+        {children}
       </body>
     </html>
   );
 }
+
+
+{/* Header */}
+{/* <header className="bg-blue-600 text-white py-4 text-center">
+  <h1 className="text-2xl font-bold">MY WEBSITE</h1>
+</header> */}
+{/* Main Content */}
+{/* <main className="container mx-auto my-8 p-6 bg-white text-black shadow-lg rounded-2xl">
+  {children}
+</main> */}
+{/* Footer */}
+{/* <footer className="bg-blue-600 text-white text-center py-3 mt-10">
+  <p>2026 My Website</p>
+</footer> */}
