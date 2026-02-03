@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ServerComponenent from "./servercomponent/page";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <ServerComponenent></ServerComponenent>
       </main>
     </div>
   );
